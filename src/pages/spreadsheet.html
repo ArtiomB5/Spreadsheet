@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spreadsheet</title>
+</head>
+<body>
+    <div class="spreadsheet">
+        <div class="spreadsheet__header">
+          <h1 class="title">Example file</h1>
+
+          <div class="header-buttons">
+            <button class="header-button">delete</button>
+            <button class="header-button">quite</button>
+          </div>
+        </div>
+        <div class="spreadsheet__toolbar">
+          <button class="toolbar-button">left</button>
+          <button class="toolbar-button">center</button>
+          <button class="toolbar-button">right</button>
+          <button class="toolbar-button">bold</button>
+          <button class="toolbar-button">italic</button>
+          <button class="toolbar-button">underline</button>
+        </div>
+        <div class="spreadsheet__formula">
+          <button class="formula-button">FX</button>
+          <input class="formula-input" />
+        </div>
+        <div class="spreadsheet__columns">
+          <div class="row-info"></div>
+          <div class="column">A</div>
+          <div class="column">B</div>
+          <div class="column">C</div>
+        </div>
+        <div class="spreadsheet__table">
+          <div class="row">
+            <div class="row-info">1</div>
+
+            <div class="row-data">
+              <div class="cell selected">A1</div>
+              <div class="cell">B1</div>
+              <div class="cell">C1</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-info">2</div>
+
+            <div class="row-data">
+              <div class="cell selected">A2</div>
+              <div class="cell">B2</div>
+              <div class="cell">C2</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-info">3</div>
+
+            <div class="row-data">
+              <div class="cell selected">A3</div>
+              <div class="cell">B3</div>
+              <div class="cell">C3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

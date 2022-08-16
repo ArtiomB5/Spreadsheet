@@ -1,0 +1,7 @@
+@import '../common';
+@import '../variables';
+@import '../mixins';
+
+.spreadsheet__toolbar {
+    @include mixinFlex('row', 'flex-start', 'center');
+}

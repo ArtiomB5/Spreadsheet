@@ -1,0 +1,15 @@
+@import '../common';
+@import '../variables';
+@import '../mixins';
+
+.spreadsheet__header {
+    @include mixinFlex('row', 'flex-start', 'center');
+
+    .header-buttons {
+        @include mixinFlex('row', 'flex-start', 'center');
+        
+        .header-button {
+            height: 20px;
+        }
+    }
+}
