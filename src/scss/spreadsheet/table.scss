@@ -1,0 +1,27 @@
+@import '../common';
+@import '../variables';
+@import '../mixins';
+
+.spreadsheet__table {
+    .row {
+        @include mixinFlex('row', 'flex-start', 'center');
+
+        .row-info {
+            width: $cell-width;
+            text-align: center;
+        }
+        .row-data {
+            @include mixinFlex('row', 'flex-start', 'center');
+
+            .cell {
+                width: $cell-width;
+                border: 1px solid black;
+                text-align: center;
+
+                &.selected {
+
+                }
+            }
+        }
+    }
+}

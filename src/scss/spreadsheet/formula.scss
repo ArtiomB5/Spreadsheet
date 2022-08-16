@@ -1,0 +1,14 @@
+@import '../common';
+@import '../variables';
+@import '../mixins';
+
+.spreadsheet__formula {
+    @include mixinFlex('row', 'flex-start', 'center');
+    
+    .formula-button {
+
+    }
+    .formula-input {
+
+    }
+}

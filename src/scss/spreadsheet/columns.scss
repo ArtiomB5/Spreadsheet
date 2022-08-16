@@ -1,0 +1,17 @@
+@import '../common';
+@import '../variables';
+@import '../mixins';
+
+.spreadsheet__columns {
+    @include mixinFlex('row', 'flex-start', 'center');
+
+    .row-info {
+        width: $cell-width;
+    }
+
+    .column {
+        border: 1px solid black;
+        width: $cell-width;
+        text-align: center;
+    }
+}
